@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Awais Tech Premium</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="particles"></div>
+
+<header id="navbar">
+  <div class="logo">Awais Tech solutions</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <button id="themeToggle">🌙</button>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>I Am <span id="typewriter"></span></h1>
+  <p>We Create Next Level Digital Experiences</p>
+  <button onclick="scrollToSection()" class="glow-btn">Get Started</button>
+</section>
+
+<section id="services" class="services reveal">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">Web Design</div>
+    <div class="card">Development</div>
+    <div class="card">Marketing</div>
+  </div>
+</section>
+
+<section id="contact" class="contact reveal">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message"></textarea>
+    <button class="glow-btn">Send</button>
+  </form>
+</section>
+
+<footer>© 2026 Awais Tech solutions</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
